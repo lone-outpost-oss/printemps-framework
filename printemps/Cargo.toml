@@ -1,0 +1,27 @@
+# Rust Cargo config file
+#
+# schema: https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "printemps"
+version = "0.0.1"
+authors = ["Lone Outpost Tech (Dalian) Co., Ltd."]
+description = "Next-generation MoonBit/WASM based web framework."
+homepage = "https://printempsframework.org"
+repository = "https://github.com/lone-outpost-oss/printemps-framework"
+license = "AGPL-3.0-only"
+edition = "2021"
+publish = false
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+serde = "1.0"
+tokio = { version = "1", features = ["full"] }
+hyper = { version = "1", features = ["full"] }
+http-body-util = "0.1"
+hyper-util = { version = "0.1", features = ["full"] }
+wasmtime = "20.0.0"
+dashmap = "5.5"
+rayon = "1.0"
+bytes = "1"
