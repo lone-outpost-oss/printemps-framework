@@ -1,5 +1,7 @@
 # The Printemps Web Framework
 
+[English][canonical] | [中文-中国][zh-CN]
+
 [__Printemps__](https://www.printempsframework.org/) is the next-generation web framework which utilizes the [MoonBit language](https://www.moonbitlang.com/) and WebAssembly runtime. 
 
 Aims on enhancing application safety, development experiment, observability and flexibility, all without compromising performance. 
@@ -17,3 +19,6 @@ __ANY API IS SUBJECT TO CHANGE, USE AT YOUR OWN RISK.__
 ## Notes
 
 > This is a [Lone Outpost Tech Open Source](https://github.com/lone-outpost-oss) project.
+
+[canonical]: ./README.md
+[zh-CN]: ./README.zh_CN.md
